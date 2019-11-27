@@ -13,7 +13,7 @@ const IndexPage = () => (
     <div className={style.content}>
       <div className={style.imageOverlay}>
         <span>There will be an election. There will be wings.</span>
-        <Countdown date={'2020-11-24T00:00:00'} />
+        <Countdown date={'2020-11-03T00:00:00'} />
       </div>
       <div className={style.throwdown}>
         <MainEvent />
