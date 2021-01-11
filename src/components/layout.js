@@ -28,12 +28,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            background: `#000`,
-          }}>
-          © {new Date().getFullYear()}
-        </footer>
       </div>
     </>
   )
